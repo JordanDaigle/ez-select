@@ -1,4 +1,4 @@
-# ez-select
+# ui-select
 Simple and easy to use "Select", "Multiselect" and "Combobox" component
 
 # UNDER CONSTRUCTION
@@ -6,27 +6,27 @@ Simple and easy to use "Select", "Multiselect" and "Combobox" component
 ```HTML
   
   <!-- generate a select following the design of the combo // multiselect -->
-  <ez-select name='my-select'>
+  <ui-select name='my-select'>
     <option selected value='value1'>text1</option>
     <option value='value2'>text2</option>
     <option value='value3'>text3</option>
-  <ez-select>
+  <ui-select>
   
   <!-- generate a combobox -->
-  <ez-combo name='my-combo' src='/url/to/extra/option' value='initialValue' text='initialText' not-empty>
+  <ui-combo name='my-combo' src='/url/to/extra/option' value='initialValue' text='initialText' not-empty>
     <option selected value='value1'>text1</option>
     <option value='value2'>text1</option>
     <option value='value3'>text1</option>
     <option value='value4'>text1</option>
-  </ez-combo>
+  </ui-combo>
   
   <!-- generate a multiselect -->
-  <ez-multiselect name='my-multiselect' src='/url/to/extra/option' value='initialValue' text='initialText'>
+  <ui-multiselect name='my-multiselect' src='/url/to/extra/option' value='initialValue' text='initialText'>
     <option selected value='value1'>text1</option>
     <option value='value2'>text1</option>
     <option value='value3'>text1</option>
     <option value='value4'>text1</option>
-  </ez-multiselect>
+  </ui-multiselect>
   
 ```
 
