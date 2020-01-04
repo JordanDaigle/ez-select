@@ -45,7 +45,7 @@ Simple and easy to use "Select", "Multiselect" and "Combobox" component
     <td>src='/url/to/data?term=%text%'</td>
   </tr>
   <tr>
-    <td>text-src</td>
+    <td>src-text</td>
     <td>Url that could be use to initialise text attribute</td>
     <td>src='/url/to/text/data?term=%value%'</td>
   </tr>
