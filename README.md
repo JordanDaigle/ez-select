@@ -142,7 +142,7 @@ Simple and easy to use "Select", "Multiselect" and "Combobox" component
   ]
 ```
 
-#### WITH A "SHOW MORE" OPTION
+#### INCLUDING A "SHOW MORE" OPTION
 To add a "show more" options for the users, you can return an object with a "count" and "results" property. As long the count is lower than the total number of item shown, an item "show more" will be displayed at the bottom of the list. This will add "&more=1" as a get parameter to the src url, the value of the parameter will be the number of times it was clicked (for the current research if your are not using the ui-select).
 
 The src url should not return the same results as before but only the next results.
