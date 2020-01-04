@@ -36,7 +36,7 @@ Simple and easy to use "Select", "Multiselect" and "Combobox" component
 
 
 <br><br>
-### Global ATTRIBUTES
+### GLOBAL ATTRIBUTES
 
 <table>
   <tr>
