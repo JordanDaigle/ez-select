@@ -48,12 +48,18 @@ Simple and easy to use "Select", "Multiselect" and "Combobox" component
   </tr>
   <tr>
     <td>src</td>
-    <td>Url that will be call by ajax to get more options</td>
+    <td>
+       Url that will be call by ajax to get more options
+      <div>see [src url response](#src-url-response)</div>
+    </td>
     <td>src='/url/to/data?term=%text%'</td>
   </tr>
   <tr>
     <td>src-text</td>
-    <td>Url that could be use to initialise text attribute of the initial value</td>
+    <td>
+      Url that could be use to initialise text attribute of the initial value
+      <div>see [src url response](#src-url-response)</div>
+    </td>
     <td>src='/url/to/text/data?term=%value%'</td>
   </tr>
   <tr>
