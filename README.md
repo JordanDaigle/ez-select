@@ -1,8 +1,9 @@
 # ui-select
 Simple and easy to use "Select", "Multiselect" and "Combobox" component
 
-# UNDER CONSTRUCTION
+## UNDER CONSTRUCTION
 
+### html
 ```HTML
   
   <!-- generate a select following the design of the combo // multiselect -->
@@ -69,6 +70,21 @@ Simple and easy to use "Select", "Multiselect" and "Combobox" component
 </table>
 
 
-
-
-
+### CSS VARIABLES
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Description</th>
+    <th>example</th>
+  </tr>
+  <tr>
+    <td>--rgb-outline</td>
+    <td>rgb params separated by comma representing the color of the outline</td>
+    <td>--rgb-outline: 0, 170, 255</td>
+  </tr>
+  <tr>
+    <td>--rgb-outline-hover</td>
+    <td>rgb params separated by comma representing the color of the outline(minus shadow) on hover, if not specified, it will use the outline color</td>
+    <td>--rgb-outline-hover: 0, 0, 0</td>
+  </tr>
+</table>
