@@ -4,8 +4,8 @@ Simple and easy to use "Select", "Multiselect" and "Combobox" component
 ## UNDER CONSTRUCTION
 
 
-
-### html
+<br><br>
+### HTML
 
 ```HTML
   
@@ -35,8 +35,8 @@ Simple and easy to use "Select", "Multiselect" and "Combobox" component
 ```
 
 
-
-### Global Attributes
+<br><br>
+### Global ATTRIBUTES
 
 <table>
   <tr>
@@ -77,8 +77,8 @@ Simple and easy to use "Select", "Multiselect" and "Combobox" component
 </table>
 
 
-
-### SELECT attribute
+<br><br>
+### SELECT ATTRIBUTES
 
 <table>
   <tr>
@@ -89,8 +89,8 @@ Simple and easy to use "Select", "Multiselect" and "Combobox" component
 </table>
 
 
-
-### MULTISELECT attribute
+<br><br>
+### MULTISELECT ATTRIBUTES
 
 <table>
   <tr>
@@ -110,8 +110,8 @@ Simple and easy to use "Select", "Multiselect" and "Combobox" component
 </table>
 
 
-
-### COMBO attribute
+<br><br>
+### COMBO ATTRIBUTES
 
 <table>
   <tr>
@@ -127,7 +127,7 @@ Simple and easy to use "Select", "Multiselect" and "Combobox" component
 </table>
 
 
-
+<br><br>
 ### CSS VARIABLES
 
 <table>
