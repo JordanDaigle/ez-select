@@ -31,6 +31,8 @@ Simple and easy to use "Select", "Multiselect" and "Combobox" component
   
 ```
 
+### Global Attributes
+
 <table>
   <tr>
     <th>Attribute</th>
@@ -40,12 +42,12 @@ Simple and easy to use "Select", "Multiselect" and "Combobox" component
   <tr>
     <td>src</td>
     <td>url that will be call by ajax to get more options</td>
-    <td>src='/url/to/data?term=%value%'</td>
+    <td>src='/url/to/data?term=%text%'</td>
   </tr>
   <tr>
-    <td>not-empty</td>
-    <td>bring back last value if field is not empty</td>
-    <td><ez-combo not-empty></ez-combo></td>
+    <td>text-src</td>
+    <td>Url that could be use to initialise text attribute</td>
+    <td>src='/url/to/text/data?term=%value%'</td>
   </tr>
   <tr>
     <td>text</td>
@@ -66,6 +68,51 @@ Simple and easy to use "Select", "Multiselect" and "Combobox" component
     <td>autosort</td>
     <td>automatically sort options shown</td>
     <td></td>
+  </tr>
+</table>
+
+### SELECT attribute
+<table>
+  <tr>
+    <th>Attribute</th>
+    <th>Description</th>
+    <th></th>
+  </tr>
+</table>
+
+
+
+### MULTISELECT attribute
+<table>
+  <tr>
+    <th>Attribute</th>
+    <th>Description</th>
+    <th></th>
+  </tr>
+  <tr>
+    <td>tags</td>
+    <td>Allow user to create items</td>
+    <td>
+        Setting only "tags" attribute will set the value the same as the text.
+        <br>
+        If a value is setted into the attribute, it will be used as the default value
+    </td>
+  </tr>
+</table>
+
+
+
+### COMBO attribute
+<table>
+  <tr>
+    <th>Attribute</th>
+    <th>Description</th>
+    <th></th>
+  </tr>
+  <tr>
+    <td>not-empty</td>
+    <td>bring back last value if field is empty</td>
+    <td><ez-combo not-empty></ez-combo></td>
   </tr>
 </table>
 
