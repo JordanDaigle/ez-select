@@ -135,10 +135,10 @@ Simple and easy to use "Select", "Multiselect" and "Combobox" component
 
 
 #### SIMPLE USE
-```JSON
+```JAVASCRIPT
   [
     {"text":"some text", "value":"some value"},
-    [...]
+    //...
   ]
 ```
 
