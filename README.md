@@ -81,19 +81,6 @@ Simple and easy to use "Select", "Multiselect" and "Combobox" component
 
 <br>
 
-### SELECT ATTRIBUTES
-
-<table>
-  <tr>
-    <th>Attribute</th>
-    <th>Description</th>
-    <th></th>
-  </tr>
-</table>
-
-
-<br>
-
 ### MULTISELECT ATTRIBUTES
 
 <table>
