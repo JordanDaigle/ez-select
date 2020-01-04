@@ -67,6 +67,11 @@ Simple and easy to use "Select", "Multiselect" and "Combobox" component
     <td></td>
   </tr>
   <tr>
+    <td>name</td>
+    <td>Used for form submission</td>
+    <td></td>
+  </tr>
+  <tr>
     <td>onchange</td>
     <td>handle change event</td>
     <td></td>
