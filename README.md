@@ -123,7 +123,7 @@ Simple and easy to use "Select", "Multiselect" and "Combobox" component
   </tr>
   <tr>
     <td>not-empty</td>
-    <td>Bring back last value if field the is empty</td>
+    <td>Bring back last value if field is empty</td>
     <td><ui-combo not-empty></ui-combo></td>
   </tr>
 </table>
