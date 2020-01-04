@@ -3,7 +3,10 @@ Simple and easy to use "Select", "Multiselect" and "Combobox" component
 
 ## UNDER CONSTRUCTION
 
+
+
 ### html
+
 ```HTML
   
   <!-- generate a select following the design of the combo // multiselect -->
@@ -30,6 +33,8 @@ Simple and easy to use "Select", "Multiselect" and "Combobox" component
   </ui-multiselect>
   
 ```
+
+
 
 ### Global Attributes
 
@@ -72,7 +77,9 @@ Simple and easy to use "Select", "Multiselect" and "Combobox" component
 </table>
 
 
+
 ### SELECT attribute
+
 <table>
   <tr>
     <th>Attribute</th>
@@ -84,6 +91,7 @@ Simple and easy to use "Select", "Multiselect" and "Combobox" component
 
 
 ### MULTISELECT attribute
+
 <table>
   <tr>
     <th>Attribute</th>
@@ -104,6 +112,7 @@ Simple and easy to use "Select", "Multiselect" and "Combobox" component
 
 
 ### COMBO attribute
+
 <table>
   <tr>
     <th>Attribute</th>
@@ -118,7 +127,9 @@ Simple and easy to use "Select", "Multiselect" and "Combobox" component
 </table>
 
 
+
 ### CSS VARIABLES
+
 <table>
   <tr>
     <th>Name</th>
