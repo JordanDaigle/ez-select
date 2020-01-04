@@ -111,6 +111,11 @@ Simple and easy to use "Select", "Multiselect" and "Combobox" component
         If a value is setted into the attribute, it will be used as the default value
     </td>
   </tr>
+  <tr>
+    <td>tokenSeparators</td>
+    <td></td>
+    <td></td>
+  </tr>
 </table>
 
 
