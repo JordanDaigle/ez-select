@@ -10,7 +10,7 @@ Simple and easy to use "Select", "Multiselect" and "Combobox" component
 
 ```HTML
   
-  <!-- generate a select following the design of the combo // multiselect -->
+  <!-- generate a select -->
   <ui-select name='my-select'>
     <option selected value='value1'>text1</option>
     <option value='value2'>text2</option>
