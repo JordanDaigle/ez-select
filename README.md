@@ -1,4 +1,4 @@
-# ui-select
+# UI-SELECT
 Simple and easy to use "Select", "Multiselect" and "Combobox" component
 
 ## UNDER CONSTRUCTION
