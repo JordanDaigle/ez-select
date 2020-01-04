@@ -46,22 +46,22 @@ Simple and easy to use "Select", "Multiselect" and "Combobox" component
   </tr>
   <tr>
     <td>src-text</td>
-    <td>Url that could be use to initialise text attribute</td>
+    <td>Url that could be use to initialise text attribute of the initial value</td>
     <td>src='/url/to/text/data?term=%value%'</td>
   </tr>
   <tr>
-    <td>text</td>
-    <td></td>
+    <td>value</td>
+    <td>initial value</td>
     <td></td>
   </tr>
   <tr>
-    <td>value</td>
-    <td></td>
+    <td>text</td>
+    <td>initial text</td>
     <td></td>
   </tr>
   <tr>
     <td>onchange</td>
-    <td></td>
+    <td>handle change event</td>
     <td></td>
   </tr>
   <tr>
@@ -70,6 +70,7 @@ Simple and easy to use "Select", "Multiselect" and "Combobox" component
     <td></td>
   </tr>
 </table>
+
 
 ### SELECT attribute
 <table>
@@ -111,8 +112,8 @@ Simple and easy to use "Select", "Multiselect" and "Combobox" component
   </tr>
   <tr>
     <td>not-empty</td>
-    <td>bring back last value if field is empty</td>
-    <td><ez-combo not-empty></ez-combo></td>
+    <td>Bring back last value if field the is empty</td>
+    <td><ui-combo not-empty></ui-combo></td>
   </tr>
 </table>
 
