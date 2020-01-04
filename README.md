@@ -135,7 +135,7 @@ Simple and easy to use "Select", "Multiselect" and "Combobox" component
 
 
 #### SIMPLE USE
-```JAVASCRIPT
+```javascript
   [
     {"text":"some text", "value":"some value"},
     //...
@@ -147,8 +147,8 @@ To add a "show more" options for the users, you can return an object with a "cou
 
 The src url should not return the same results as before but only the next results.
 
-<b>/some/url?search=someText</b>
-```json
+```javascript
+  /* /some/url?search=someText */
   {
     "count":1337,
     "results":[
@@ -156,9 +156,7 @@ The src url should not return the same results as before but only the next resul
       {"text":"text 2", "value":"value 2"},
     ]
   }
-```
-<b>/some/url?search=someText&more=1</b>
-```json
+  /* /some/url?search=someText&more=1 */
   {
     "count":1337,
     "results":[
