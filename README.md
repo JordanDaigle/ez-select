@@ -41,7 +41,7 @@ Simple and easy to use "Select", "Multiselect" and "Combobox" component
   </tr>
   <tr>
     <td>src</td>
-    <td>url that will be call by ajax to get more options</td>
+    <td>Url that will be call by ajax to get more options</td>
     <td>src='/url/to/data?term=%text%'</td>
   </tr>
   <tr>
