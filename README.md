@@ -134,7 +134,7 @@ Simple and easy to use "Select", "Multiselect" and "Combobox" component
 ### SRC URL RESPONSE
 
 
-#### Simple use
+#### SIMPLE USE
 ```JSON
   [
     {"text":"some text", "value":"some value"},
@@ -142,7 +142,7 @@ Simple and easy to use "Select", "Multiselect" and "Combobox" component
   ]
 ```
 
-#### Adding a "show more" option
+#### WITH A "SHOW MORE" OPTION
 If you don't want to show all results at once but want to allow users to show more options you can return an object with a "count" and "results" property. As long the count is lower then the total number of item shown, an item "show more" will be displayed at the bottom of the list. This will add "&more=1" as a get parameter to the src url, the value of the parameter will be the number of times it was clicked (for the current research if your are not using the ui-select).
 
 The src url should not return the same results as before but only the next results.
