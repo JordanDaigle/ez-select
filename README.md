@@ -172,7 +172,7 @@ The src url should not return the same results as before but only the next resul
 
 <br>
 
-### DISABLING AN ELEMENT IN THE DROPDOWN
+### DISABLING A DROPDOWN ELEMENT
 To disable an element coming from an url, simple add the attribute <kbd>"disabled":"1"</kbd> in the definition.
 To disable an element coming from <kbd>option</kbd> html tag, simply add the <kbd>disabled</kbd> attribute.
 
