@@ -147,7 +147,7 @@ Simple and easy to use "Select", "Multiselect" and "Combobox" component
 ```
 
 #### INCLUDING A "SHOW MORE" OPTION
-To add a "show more" options for the users, you can return an object with a "count" and "results" property. As long the count is lower than the total number of item shown, an item "show more" will be displayed at the bottom of the list. This will add "&more=1" as a get parameter to the src url, the value of the parameter will be the number of times it was clicked (for the current research if your are not using the ui-select).
+To add a "show more" options for the users, you can return an object with a <kbd>count</kbd> and <kbd>results</kbd> property. As long the count is lower than the total number of item shown, an item <kbd>show more</kbd> will be displayed at the bottom of the list. This will add "&more=1" as a get parameter to the src url, the value of the parameter will be the number of times the <kbd>show more</kbd> was clicked (for the current research if your are not using the ui-select).
 
 The src url should not return the same results as before but only the next results.
 
@@ -169,6 +169,12 @@ The src url should not return the same results as before but only the next resul
     ]
   }
 ```
+
+<br>
+
+### DISABLING AN ELEMENT IN THE DROPDOWN
+To disable an element coming from an url, simple add the attribute <kbd>"disabled":"1"</kbd> in the definition.
+To disable an element coming from <kbd>option</kbd> html tag, simply add the <kbd>disabled</kbd> attribute.
 
 <br>
 
