@@ -181,16 +181,31 @@ To disable an element coming from <kbd>option</kbd> html tag, simply add the <kb
   <tr>
     <th>Name</th>
     <th>Description</th>
+    <th>default</th>
     <th>example</th>
   </tr>
   <tr>
     <td>--rgb-outline</td>
     <td>rgb params separated by comma representing the color of the outline</td>
+    <td></td>
     <td>--rgb-outline: 0, 170, 255</td>
   </tr>
   <tr>
     <td>--rgb-outline-hover</td>
     <td>rgb params separated by comma representing the color of the outline(minus shadow) on hover, if not specified, it will use the outline color</td>
+    <td></td>
     <td>--rgb-outline-hover: 0, 0, 0</td>
+  </tr>
+  <tr>
+    <td>--ui-select-background-menu-hover</td>
+    <td>rgb params separated by comma representing the color of the outline(minus shadow) on hover, if not specified, it will use the outline color</td>
+    <td>#e2e2e2</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>--ui-select-background-menu-selected</td>
+    <td>rgb params separated by comma representing the color of the outline(minus shadow) on hover, if not specified, it will use the outline color</td>
+    <td>--ui-select-background-menu-hover</td>
+    <td></td>
   </tr>
 </table>
