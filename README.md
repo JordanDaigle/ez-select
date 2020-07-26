@@ -48,14 +48,14 @@ Simple and easy to use "Select", "Multiselect" and "Combobox" component
     <td>
        Url that will be call by ajax to get more options
     </td>
-    <td>src='/url/to/data?filter=%text%'</td>
+    <td>src='/url/to/data?filter=%filter%'</td>
   </tr>
   <tr>
     <td>src-text</td>
     <td>
       Url that could be use to initialise text attribute of the initial value
     </td>
-    <td>src='/url/to/text/data?filter=%value%'</td>
+    <td>src='/url/to/text/data?filter=%filter%'</td>
   </tr>
   <tr>
     <td>value</td>
