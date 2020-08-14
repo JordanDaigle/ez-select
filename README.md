@@ -211,7 +211,7 @@ To disable an element coming from <kbd>option</kbd> html tag, simply add the <kb
   <tr>
     <td>--ui-select-maximum-menu-height</td>
     <td></td>
+    <td></td>
     <td>--ui-select-maximum-menu-height</td>
-    <td>250px</td>
   </tr>
 </table>
