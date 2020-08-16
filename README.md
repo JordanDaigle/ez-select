@@ -214,4 +214,10 @@ To disable an element coming from <kbd>option</kbd> html tag, simply add the <kb
     <td>250px</td>
     <td></td>
   </tr>
+  <tr>
+    <td>--ui-select-font-family</td>
+    <td></td>
+    <td>Roboto</td>
+    <td></td>
+  </tr>
 </table>
